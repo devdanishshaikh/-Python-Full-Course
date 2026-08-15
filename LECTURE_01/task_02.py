@@ -1,9 +1,6 @@
-#Arithmetic Operator Practise
-a = 10
-b =5.2
-x = a + b
-print(x)
-print(type(x))
-print(type(a))
-print(type(b))
+# take 2 number as input and make their sum
+num_1 = int(input("Enter first Number : "))
+num_2 = int(input("Enter 2nd number : "))
 
+sum = num_1 + num_2
+print(f"Sum of {num_1} and {num_2}:", sum)
