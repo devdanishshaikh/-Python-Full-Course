@@ -1,2 +1,17 @@
-name = "Python"
-print(name[:-1])
+# Username Analyzer -Task 01
+username = input("Enter your username: ")
+if len(username) >=8:
+    print("Strong username")
+    print("Username length is: ", len(username))
+    print("First character:", username[0])
+    print("Last character:", username[-1])
+elif len(username) >=5 and len(username) <=7:
+    print("Medium Username")
+    print("Username length is: ", len(username))
+    print("First character:", username[0])
+    print("Last character:", username[-1])
+else:
+    print("Weak Username")
+    print("Username length is: ", len(username))
+    print("First character:", username[0])
+    print("Last character:", username[-1])
