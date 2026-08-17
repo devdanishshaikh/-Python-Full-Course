@@ -16,3 +16,4 @@ elif family_income < 50000 and attendance >= 80 and percentage >= 75:
     print(name, "is eligible for the financial scholarship.")
 else :
     print(name, "is not eligible for any scholarship.")
+print("===============================================")
